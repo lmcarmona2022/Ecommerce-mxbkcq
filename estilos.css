@@ -1,46 +1,9 @@
-.navegacion ul{
-	list-style: none;
-  background-color: rgb(235, 224, 219) ;
-}
-
-.menu > li{
-	position: relative;
-	display: inline-block;
-}
-
-.menu > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: #353535;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li a:hover{
-	color: #CE7D35;
-	transition: all .3s;
-}
-
-/* Submenu*/
-
-.submenu{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
-}
-
-.submenu li a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.menu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
-}
+ul.horizontal{
+  margin:0;
+  padding:0;
+  }
+  ul.horizontal li{
+    display:block;
+    float:left;
+    padding:0 10px;
+    }
