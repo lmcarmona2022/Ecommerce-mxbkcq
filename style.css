@@ -1,9 +1,11 @@
-ul.horizontal{
-  margin:0;
-  padding:0;
-  }
-  ul.horizontal li{
-    display:block;
-    float:left;
-    padding:0 10px;
-    }
+ 
+
+body {
+    background-color: #e0e2e7;
+}
+div {
+    height: 100px;
+    margin: 15px;
+    border: 1px solid #6203fb;
+    background-color: #c99f9ff6;
+}
